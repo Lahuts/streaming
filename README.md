@@ -3,7 +3,7 @@
 ## Présentation du projet :
 Le resultat final du projet est de proposer une maquette de site web en s'inspirant des sites de streaming (Netflix, Prime Vidéo, etc).
 
-Pour un visiter le site il vous suffit de cliquez ici -->  [Streaming](https://lusegar.github.io/streaming/src/index.html)
+Pour visiter le site il vous suffit de cliquez ici -->  [Streaming](https://lusegar.github.io/streaming/src/index.html)
 
 ## Compostion du répertoire :
 * css/main.css
