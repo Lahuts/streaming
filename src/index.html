@@ -12,6 +12,8 @@
     <link rel="manifest" href="favicon/site.webmanifest">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
     <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/modals.css">
+    <link rel="stylesheet" href="../css/reset.css">
 </head>
 <body>
     <header>
@@ -38,13 +40,13 @@
                 <div id="picture-wrapper">
                     <nav>
                       <ul>
-                        <li> <a href="../favicon/2495192.jpg"> <img src="../favicon/2495192.jpg" title="The Outsider" alt="lien haut de page" id="s1" class="picture"></a> </li>
+                        <li> <img src="../favicon/2495192.jpg" title="The Outsider" alt="lien haut de page" id="s1" class="picture"> </li>
                         <li> <a href="../favicon/crow_zero.jpg"> <img src="../favicon/crow_zero.jpg" title="Crow Zero" alt="lien haut de page" id="s2" class="picture"></a></li>
                         <li> <a href="../favicon/inglo_bastard.jpg"> <img src="../favicon/inglo_bastard.jpg" title="Inglorious bastards" alt="lien haut de page" id="s3" class="picture"></a></li>
                         <li> <a href="../favicon/l6xybnfwcanumhqtzdlunnwfuyq-609.jpg"> <img src="../favicon/l6xybnfwcanumhqtzdlunnwfuyq-609.jpg" title="Jumper" alt="lien haut de page" id="s4" class="picture"></a> </li>
-                        <div style="clear:both; margin-top:25px;"></div>
-                        <li> <a href="../favicon/the_batman.jpg"> <img src="../favicon/the_batman.jpg" title="The Batman" alt="lien haut de page" id="s5"  class="picture"></a> </li>
-                        <li> <a href="../favicon/Le_dernier_sam.jpg"> <img src="../favicon/Le_dernier_sam.jpg" title="The Last Samurai" alt="lien haut de page" id="s6"class="picture"></a></li>
+            
+                        <li> <a href="../favicon/the_batman.jpg"> <img src="../favicon/the_batman.jpg" title="The Batman" alt="lien haut de page" id="s5" class="picture"></a> </li>
+                        <li> <a href="../favicon/Le_dernier_sam.jpg"> <img src="../favicon/Le_dernier_sam.jpg" title="The Last Samurai" alt="lien haut de page" id="s6" class="picture"></a></li>
                         <li> <a href="../favicon/ff3.jpg"> <img src="../favicon/ff3.jpg" title="Fast&Furious 3" alt="lien haut de page" id="s7" class="picture"></a></li>
                         <li> <a href="../favicon/Old_Boy.jpg"> <img src="../favicon/Old_Boy.jpg" title="Old Boy" alt="lien haut de page" id="s8" class="picture" ></a> </li>
                       </ul>
@@ -63,6 +65,25 @@
     <footer>
         <p>&copy; - MIT - 2022</p>
     </footer>
+    <div class="bc-modal" role="dialog">
+        <div class="fr-modal">
+            
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/JTGC4WY6uVY" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <section class="modal-info">
+                <a href="#bc-modal" class="close"></a>
+                <h3>Titre</h3>
+            <ul>
+                <li class="li1">Réalisateur :</li>
+                <li class=" li2">Genre : </li>
+                <li> Date de sortie :  </li>
+            </ul>
+            
+            </section>
+            
+        </div>
+    </div>
+     <script src="js/hover.js"></script>
+    <script src="js/modals.js"></script>
     <script src="./js/object.js"></script>
 </body>
 </html>
